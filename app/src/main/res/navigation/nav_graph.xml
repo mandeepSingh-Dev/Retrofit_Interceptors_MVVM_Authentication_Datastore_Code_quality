@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboard_Fragment">
+
+    <fragment
+        android:id="@+id/dashboard_Fragment"
+        android:name="com.mojoboxx.retrofit_interceptors_mvvm_authentication_datastore_code_quality.ui.fragments.Dashboard_Fragment"
+        android:label="fragment_dashboard_"
+        tools:layout="@layout/fragment_dashboard_" >
+        <action
+            android:id="@+id/action_dashboard_Fragment_to_wallpaperDetailsFragment"
+            app:destination="@id/wallpaperDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wallpaperDetailsFragment"
+        android:name="com.mojoboxx.retrofit_interceptors_mvvm_authentication_datastore_code_quality.ui.fragments.WallpaperDetailsFragment"
+        android:label="WallpaperDetailsFragment" />
+</navigation>
