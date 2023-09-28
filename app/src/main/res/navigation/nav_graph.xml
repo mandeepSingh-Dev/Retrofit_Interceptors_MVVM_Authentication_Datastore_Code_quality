@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/dashboard_Fragment"
-        android:name="com.mojoboxx.retrofit_interceptors_mvvm_authentication_datastore_code_quality.ui.fragments.Dashboard_Fragment"
+        android:name="com.whitzapp.WallWhitz.presentation.ui.fragments.Dashboard_Fragment"
         android:label="fragment_dashboard_"
         tools:layout="@layout/fragment_dashboard_" >
         <action
@@ -16,6 +16,6 @@
     </fragment>
     <fragment
         android:id="@+id/wallpaperDetailsFragment"
-        android:name="com.mojoboxx.retrofit_interceptors_mvvm_authentication_datastore_code_quality.ui.fragments.WallpaperDetailsFragment"
+        android:name="com.whitzapp.WallWhitz.presentation.ui.fragments.WallpaperDetailsFragment"
         android:label="WallpaperDetailsFragment" />
 </navigation>

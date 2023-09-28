@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Retrofit_Interceptors_MVVM_Authentication_Datastore_Code_quality"
 include ':app'
+include ':BottomNavigationIndicatorView'
+include ':BottomNavigationLibrary'
